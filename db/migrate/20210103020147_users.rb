@@ -4,6 +4,8 @@ class Users < ActiveRecord::Migration[5.1]
       t.string :username
       t.password :password_digest
     end
+  end
+  def down
     
   end
 end
